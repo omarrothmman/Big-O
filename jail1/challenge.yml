@@ -1,0 +1,35 @@
+# Author's name
+author: BigO
+
+# Category: [Crypto, Forensics, Misc, Mobile, Pwn, Rev, Web]
+category: misc 
+
+# Description: Multi-line markdown string, Ending with a newline then the author's name in markdown quote.
+description: |-
+  you think yourself a Frank Clarence? a John Morris? you're not that guy pal, trust mr you're not that guy!!.
+
+  > {BigO}
+
+# Add the challenge difficulty as a tag [beginner, easy, medium, hard]
+tags:
+  - easy
+
+# List of flags for the challenge
+flags:
+  # A static case sensitive flag
+  - BAU{3ch0_1s_4ll_y0u_n33d}
+
+### Fixed fields, please do not edit them. ###
+state: hidden
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 100
+
+### Optional fields. ###
+# List of files to be included in the challenge
+files:
+  - handouts/Docker.zip
+
